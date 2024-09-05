@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pagina de Login</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="./js/script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Register  -->
+      <div class="banner">
+        <h1>Seja Bem Vindo</h1>
+        <p>Se voce ja possui conta faça login</p>
+        <button id="bannerBtn">Login</button>
+        <div class="theme">
+          <div class="btn-theme">
+            <div class="circle"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-register">
+        <div class="title">
+          <h2>Cadastre sua conta</h2>
+        </div>
+
+        <div class="social-container">
+          <div class="social" aria-label="Login com Google">
+            <img src="./img/google.png" alt="goggle" />
+          </div>
+          <div class="social" aria-label="Login com facebook">
+            <img src="./img/facebook.png" alt="facebook" />
+          </div>
+          <div class="social" aria-label="Login com Github">
+            <img src="./img/github.png" alt="github" />
+          </div>
+        </div>
+        <form class="form-register">
+          <div class="input">
+            <p>Nome:</p>
+            <input type="text" placeholder="Digite seu Nome..." required />
+          </div>
+          <div class="input">
+            <p>Email:</p>
+            <input type="email" placeholder="Digite seu Email..." required />
+          </div>
+          <div class="input">
+            <p>Senha:</p>
+            <input type="password" placeholder="Digite sua Senha..." required />
+          </div>
+          <div class="btn">
+            <button aria-label="Cadastrar">Cadastrar</button>
+          </div>
+        </form>
+      </div>
+      <!-- Login -->
+
+      <div class="container-login hide">
+        <div class="title">
+          <h2>Login</h2>
+        </div>
+        <form class="form-login">
+          <div class="user-image">
+            <i class="fa-solid fa-user"></i>
+          </div>
+          <div class="input">
+            <p>Email:</p>
+            <input type="email" placeholder="Digite seu Email..." required />
+          </div>
+          <div class="input">
+            <p>Senha:</p>
+            <input type="password" placeholder="Digite sua Senha..." required />
+          </div>
+          <div class="btn">
+            <button>Login</button>
+          </div>
+        </form>
+        <div class="social-container">
+          <div class="social">
+            <img src="./img/google.png" alt="goggle" />
+          </div>
+          <div class="social">
+            <img src="./img/facebook.png" alt="facebook" />
+          </div>
+          <div class="social">
+            <img src="./img/github.png" alt="github" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
